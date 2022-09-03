@@ -1,0 +1,37 @@
+body{
+	margin: o, auto;
+	padding: 0;
+}
+table{
+	background-color: black;
+	align-items: center;
+}
+td{
+	text-align: center;
+
+}
+td input{
+	width: 100%;
+	background: white;
+	color: black;
+	font-size: 24px;
+}
+td input[name=equal]{
+	width: 100%;
+}
+td input[name=equal]:hover{
+	background: green;
+}
+#display{
+	width: 95%;
+}
+caption{
+	font-size: 28px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bolder;
+}
+td input[name=clear]{
+	background: red;
+	color: white;
+}
